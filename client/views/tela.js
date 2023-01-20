@@ -174,9 +174,7 @@ class Tela {
     const chart = new Chart();
 
     const maxValue = Math.max(...this.ano.meses.map(mes => mes.totalMensal.saldo));
-    console.log(maxValue);
     const minValue = Math.min(...this.ano.meses.map(mes => mes.totalMensal.saldo));
-    console.log(minValue);
     for (const mes of this.ano.meses) {
       chart.addBar(mes.totalMensal.saldo, mes.nome, minValue, maxValue);
     }
