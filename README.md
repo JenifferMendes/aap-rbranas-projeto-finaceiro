@@ -6,3 +6,29 @@ Projeto desenvolvido no curso "Aprenda a Programar" do Rodrigo Branas
 ![lancamento](https://user-images.githubusercontent.com/115995202/216671157-79c2d69f-184e-4bae-9c7d-085a79ca1296.png)
 ![menu-lancamento](https://user-images.githubusercontent.com/115995202/216671159-225f7d64-c41c-4f0e-974d-6a4945e6680f.png)
 ![mes-janeiro](https://user-images.githubusercontent.com/115995202/216671163-a5dbd0d4-c525-4cd2-8ab0-f11b32d2c8f4.png)
+
+Um estudo fullstack com enfase em estrutura de código orientado a objetos
+
+## Como iniciar?
+
+### Requisitos
+
+1. PostgreSQL
+2. Node
+
+``` 
+git clone ...
+npm install
+npm run start 
+```
+
+
+## Pacotes
+
+``` 
+- server
+  - Node Express
+  - PostgreSQL <postgres>
+- client
+  - Javascript e HTML 
+  ```
